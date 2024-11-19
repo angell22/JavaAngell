@@ -13,22 +13,25 @@ public class SwitchCar {
         System.out.println("Car Model: Honda");
         carPrice = 200000;
         System.out.println("Car's Price: RM " + carPrice);
-        System.out.println("The buyer is a VIP!");
         break;
       case 2:
         System.out.println("Car Model: Proton");
         carPrice = 95000;
         System.out.println("Car's Price: RM " + carPrice);
-        System.out.println("The buyer is not a VIP!");
         break;
       case 3:
         System.out.println("Car Model: Perodua");
         carPrice = 100000;
         System.out.println("Car's Price: RM " + carPrice);
-        System.out.println("The buyer is not a VIP!");
       default:
         System.out.println("Invalid!");
         break;
+    }
+    if (carPrice > 100000) {
+      System.out.println("The buyer is a VIP!");
+    }
+    else {
+      System.out.println("The buyer is not a VIP."); 
     }
   }
 }
