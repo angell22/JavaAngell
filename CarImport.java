@@ -46,6 +46,6 @@ public class CarImport {
         }
 
         double averagePrice = PriceAverage.calculateAveragePrice(cars);
-        System.out.println("\nThe average price of the cars is: " + averagePrice);
+        System.out.println("\nThe average price of the cars is: " + "RM" + averagePrice);
     }
 }
