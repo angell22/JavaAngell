@@ -6,7 +6,7 @@ public class MatrixCar {
   carModel[1][0] = "Model: Toyota"; carModel[1][1] = "Model: Lexus"; carModel[1][2] = "Model: Tesla"; 
   carModel[2][0] = "Model: Volkswagen"; carModel[2][1] = "Model: BMW "; carModel[2][2] = "Model: Mitsubishi";
   
-  int [][] carPrice = {
+  double[][] carPrice = {
     {90000, 25000, 30000},
     {40000, 50000, 200000},
     {150000, 130000, 100000}
