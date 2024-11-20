@@ -12,6 +12,8 @@ public class MatrixCar {
     {150000, 130000, 100000}
   };
 
+  System.out.println("\nList of cars which values above RM 50,000:");
+  System.out.println("========================================== \n");
   for (int row=0; row<carModel.length; row++) {
     for (int col=0; col<carModel[row].length; col++){
       if (carPrice[row][col]>50000) {
@@ -19,6 +21,5 @@ public class MatrixCar {
       }
     }
   }
-
  }
 }
